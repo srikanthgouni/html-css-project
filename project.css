@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+#aboutMe{
+    background-image: url("./images/page-bg.jpg");
+    display: flex;
+    gap:40px;
+}
+aside{
+    position: fixed;
+    background-color: rgb(157, 57, 57);
+    width:300px;
+    height:auto;
+    margin-left: 50px;
+}
+.author{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.profession{
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+.author>img{
+    border-radius: 50%;
+    padding: 30px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu>a{
+    background-color:rgb(157, 57, 57);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    font-weight:bolder ;
+    font-size: 25px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+}
+.pages:hover{
+    background-color:white ;
+    color: rgb(157, 57, 57);
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.icons>div{
+    background-color:white;
+    border-radius: 10%;
+    padding-top: 2px;
+}
+.footer{
+    display: flex;
+    color: white;
+    gap:55px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Right_part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-left:330px;
+}
+.Right_part>.aboutMe{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 50px;
+}
+.aboutMe p{
+    margin-top: 20px;
+    text-align: center;
+}
+.one,.two{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.hrline1{
+    width: 80%;
+    height: 2px;
+    background-color:rgb(107, 102, 102);
+}
+.oneleft,.tworight{
+    width:40%;
+}
+.oneleft>img{
+    width: 400px;
+    border-radius: 2%;
+    margin-right: 10px;
+}
+.oneright,.twoleft{
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.oneright{
+    text-align: justify;
+}
+.rightbutton{
+   width: 150px;
+   font-size: 15px;
+   padding: 10PX;
+   background-color: white;
+   color: rgb(157, 57, 57);
+}
+.rightbutton:hover{
+    color: white;
+    background-color: rgb(157, 57, 57); 
+    cursor: pointer;
+}
+.tworight>img{
+    width: 400px;
+    border-radius: 2%;
+    margin-left: 50px;
+}
+
+#goodat{
+    background-image: url("./images/page-bg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px 0px 50px 0px;
+}
+
+.goodat{ 
+    width: 60%;
+    color: white;
+    text-align: center;
+    margin-left: 23%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.goodat>h1{
+    margin-top: 30px;
+}
+#skills{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: end;
+    align-items: flex-end;
+    margin-left: 8%;
+    gap: 10px;
+}
+.hrline2{
+    width: 100%;
+    height: 3px;
+    background-color:rgb(168, 158, 158);
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 40px;
+    width: 40%;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+.skills>img{
+    width: 60px;
+}
+
+#Mywork{
+    background-image: url("./images/page-bg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.MYWork{ 
+    width: 60%;
+    color: white;
+    text-align: center;
+    margin-left: 23%;
+    display: flex;
+    flex-direction: column;
+    gap: 20;
+}
+.links{
+    margin-left:300px;
+}
+.links>a{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+.links>a:hover{
+    color: rgb(157, 57, 57);
+    border-bottom: 3px solid  rgb(157, 57, 57);
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 40%;
+    padding-left: 10PX;
+    
+}
+.image>img{
+    width: 100%;
+    border-radius: 5px;
+}
+.hrline3{
+    width: 100%;
+    height: 3px;
+    background-color:rgb(91, 86, 86);
+    margin-bottom: 30px;
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: end;
+    align-items: flex-end;
+    margin-left: 8%;
+    gap: 10px;
+}
+
+#contactme{
+    background-image: url("./images/page-bg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    height: 500px;
+}
+
+.contactme{ 
+    width: 60%;
+    color: white;
+    text-align: center;
+    margin-left: 23%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hrline4{
+    width: 80%;
+    height: 3px;
+    background-color:rgb(168, 158, 158);
+    margin-top: 30px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: rgb(161, 156, 156) ;
+    margin-left: 350px;
+}
+.name_email{
+  display: flex;
+  gap: 5px;
+}
+#name{
+   padding: 5px 275px 5px 5px;
+   background-color: rgba(255,255,255,0.1);
+   border: 3px solid  rgb(161, 156, 156);
+   font-weight: normal;
+}
+.subject{
+    padding: 5px 730px 5px 5px;
+    background-color: rgba(255,255,255,0.1);
+    border: 3px solid  rgb(161, 156, 156);
+}
+#Message{
+    padding: 5px 730px 80px 5px;
+    background-color: rgba(255,255,255,0.1);
+    border: 3px solid  rgb(161, 156, 156);
+}
+#button{
+    background-color: white;
+    padding: 5px;
+    width: fit-content;
+    margin-left:400px ;
+    font-weight: bolder;
+    color:rgb(157, 57, 57);
+    font-size: 15px;
+}
+#button:hover{
+    background-color: rgb(157, 57, 57);
+    color: white;
+    cursor: pointer;
+}
+.underline{
+    background-color: brown;
+    width: 5%;
+    height: 3px;
+    margin-top: 10px;
+}
+.underline2{
+    background-color: brown;
+    width: 5%;
+    height: 3px;
+    margin-left:430px;
+}
